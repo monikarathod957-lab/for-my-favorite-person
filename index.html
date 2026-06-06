@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Favorite Person ❤️</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#ffe6f0,#fff0f5);
+    overflow-x:hidden;
+    color:#444;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    font-size:4rem;
+    color:#ff4d88;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.3rem;
+    max-width:700px;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    color:#ff4d88;
+    margin-bottom:40px;
+    font-size:2.5rem;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#ff4d88;
+    margin-bottom:10px;
+}
+
+.memory{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    margin-bottom:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+}
+
+.open-btn{
+    display:block;
+    margin:15px auto;
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d88;
+    color:white;
+    cursor:pointer;
+    font-size:1rem;
+}
+
+.message{
+    display:none;
+    text-align:center;
+    margin-top:15px;
+    color:#d63384;
+    font-weight:bold;
+}
+
+.secret-section{
+    text-align:center;
+}
+
+.secret-btn{
+    background:#ff4d88;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    font-size:1.1rem;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.secret-message{
+    display:none;
+    margin-top:25px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+}
+
+.hearts{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    pointer-events:none;
+    overflow:hidden;
+}
+
+.heart{
+    position:absolute;
+    color:#ff80aa;
+    animation:float 8s linear infinite;
+    opacity:0.7;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(100vh);
+        opacity:0;
+    }
+    10%{
+        opacity:0.8;
+    }
+    100%{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+}
+
+.hero-box{
+    background:rgba(255,255,255,0.8);
+    padding:40px;
+    border-radius:25px;
+    backdrop-filter:blur(10px);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hearts" id="hearts"></div>
+
+<header>
+
+<div class="hero-box">
+    <h1>For You ❤️</h1>
+
+    <p>
+        I made this little corner of the internet for one reason:
+        to remind you how special you are to me.
+        No occasion. No special day.
+        Just because you deserve to know how loved you are.💕
+    </p>
+</div>
+
+</header>
+
+<section>
+
+<h2>Things I Love About You ❤️</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>Your Kindness</h3>
+<p>
+Your dedication towards me.....your love which is just increasing day by day🫶 
+</p>
+</div>
+
+<div class="card">
+<h3>Your Smile</h3>
+<p>
+A single smile from you can improve my entire day. so please smile yrr😊
+</p>
+</div>
+
+<div class="card">
+<h3>Your Support</h3>
+<p>
+You always stand by me when I need someone. You are the person i can count on at any moment.✨
+</p>
+</div>
+
+<div class="card">
+<h3>The Way You Care</h3>
+<p>
+You notice things about me that others miss. you are my second parent.😚
+</p>
+</div>
+
+<div class="card">
+<h3>Your Presence</h3>
+<p>
+Even ordinary moments become special when you're around.🫰
+</p>
+</div>
+
+<div class="card">
+<h3>You</h3>
+<p>
+Out of all the reasons, my favorite one is simply you.🌷
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Our Favorite Memories 📸</h2>
+
+<div class="memory">
+<h3>🌸 First Memory</h3>
+<p>
+Our favourite first memory was (specifically mine)
+when we met at Mumbai CSMT station....you remember how much you cried before meeting, that was the day when i realised that how much i meant for you ...and how much you love me..that was really a special day for me ....first time i got butterfiles in my stomach, for you...and we spent some hours together getting really very close.</p>
+</div>
+
+<h2>Cute little Moments</h2>
+
+<div class="card-container">
+
+<div class="card">
+    <h3>🌸 Fun Time</h3>
+    <p>One of my favorite memories with you ❤️</p>
+
+    <button class="open-btn" onclick="showVideo('video1')">
+        🎁 Open This Memory
+    </button>
+
+    <div id="video1" style="display:none; margin-top:15px;">
+        <video width="100%" controls>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<div class="card">
+    <h3>🥰 Cute Fights</h3>
+    <p>The fights that somehow made us even closer ❤️</p>
+
+    <button class="open-btn" onclick="showVideo('video2')">
+        💌 Unlock This Memory
+    </button>
+
+    <div id="video2" style="display:none; margin-top:15px;">
+        <video width="100%" controls>
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<div class="card">
+    <h3>😝 You Tease Me Too Much</h3>
+    <p>Evidence that you're a professional troublemaker 🤭</p>
+
+    <button class="open-btn" onclick="showVideo('video3')">
+        😂 Watch The Evidence
+    </button>
+
+    <div id="video3" style="display:none; margin-top:15px;">
+        <video width="100%" controls>
+            <source src="video3.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<div class="card">
+    <h3>🎯 Dare</h3>
+    <p>The moment I knew you would do absolutely anything 😆</p>
+
+    <button class="open-btn" onclick="showVideo('video4')">
+        🤫 Reveal Secret Memory
+    </button>
+
+    <div id="video4" style="display:none; margin-top:15px;">
+        <video width="100%" controls>
+            <source src="video4.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+</div>
+
+
+
+</section>
+
+<section>
+
+<h2>Open When... 💌</h2>
+
+<button class="open-btn" onclick="showMessage('sad')">
+😔 Open When You're Sad
+</button>
+
+<div class="message" id="sad">
+    <img src="sad.jpeg" width="250" style="border-radius:15px; margin:15px;">
+    <p>
+        Hey love ❤️<br><br>
+        I know some days are harder than others.
+        But please remember that you are stronger than you think,
+        and no matter what happens, I'll always be cheering for you.
+        One bad day doesn't define you. 🫂💕
+    </p>
+</div>
+
+<button class="open-btn" onclick="showMessage('miss')">
+🥺 Open When You Miss Me
+</button>
+
+<div class="message" id="miss">
+    <img src="missme.jpeg" width="250" style="border-radius:15px; margin:15px;">
+    <p>
+        If you're reading this, I'm probably missing you too. ❤️
+        Until we meet again, keep this photo as a reminder that
+        you're always in my heart.
+        Sending you the biggest virtual hug. 🤗💕
+    </p>
+</div>
+
+<button class="open-btn" onclick="showMessage('motivation')">
+💪 Open When You Need Motivation
+</button>
+
+<div class="message" id="motivation">
+    <img src="motivation.jpeg" width="250" style="border-radius:15px; margin:15px;">
+    <p>
+        You've already overcome so much. You own my heart ..that was way more difficult, right?
+        Don't stop now. ✨
+        I believe in you even when you don't believe in yourself.
+        Go make yourself proud. ❤️🔥
+    </p>
+</div>
+
+</section>
+
+<section class="secret-section">
+
+<h2>Secret Message 🎁</h2>
+
+<button class="secret-btn" onclick="revealSecret()">
+Click For A Surprise
+</button>
+
+<div class="secret-message" id="secret">
+
+<h3>❤️ To My Favorite Human ❤️</h3>
+
+<p>
+Thank you for being patient with me.
+Thank you for listening to my random thoughts.
+Thank you for making me feel safe.
+
+You may not realize it,
+but you've become one of the best parts of my life.
+
+And if nobody tells you today:
+
+You are loved.
+You are appreciated.
+You matter to me more than you know.
+I loveee youuu
+❤️
+</p>
+
+</div>
+
+</section>
+
+<footer>
+Made with lots of love ❤️
+</footer>
+
+<script>
+
+window.onload = function(){
+    setTimeout(function(){
+        alert("❤️ Welcome My Love ❤️\n\nI made this little website just for you.");
+    },1000);
+}
+
+function showMessage(id){
+    let msg = document.getElementById(id);
+
+    if(msg.style.display === "block"){
+        msg.style.display = "none";
+    } else {
+        msg.style.display = "block";
+    }
+}
+
+function showVideo(id){
+    let video = document.getElementById(id);
+
+    if(video.style.display === "none"){
+        video.style.display = "block";
+    } else {
+        video.style.display = "none";
+    }
+}
+
+function revealSecret(){
+
+    document.getElementById("secret").style.display = "block";
+
+    for(let i = 0; i < 25; i++){
+
+        const heart = document.createElement("div");
+
+        heart.innerHTML = "💖";
+
+        heart.style.position = "fixed";
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.top = "-20px";
+        heart.style.fontSize = "25px";
+        heart.style.pointerEvents = "none";
+        heart.style.zIndex = "9999";
+
+        document.body.appendChild(heart);
+
+        let pos = -20;
+
+        let fall = setInterval(function(){
+
+            pos += 5;
+            heart.style.top = pos + "px";
+
+            if(pos > window.innerHeight){
+                clearInterval(fall);
+                heart.remove();
+            }
+
+        },20);
+    }
+}
+
+const heartsContainer = document.getElementById("hearts");
+
+function createHeart(){
+
+    const heart = document.createElement("div");
+
+    heart.classList.add("heart");
+
+    heart.innerHTML = "❤";
+
+    heart.style.left = Math.random() * 100 + "vw";
+
+    heart.style.fontSize =
+    Math.random() * 25 + 15 + "px";
+
+    heart.style.animationDuration =
+    Math.random() * 5 + 5 + "s";
+
+    heartsContainer.appendChild(heart);
+
+    setTimeout(()=>{
+        heart.remove();
+    },10000);
+}
+
+setInterval(createHeart,300);
+
+</script>
+
+</body>
+</html>
